@@ -126,7 +126,6 @@ header .hero-row.header-wrap{
     width: 60%;
 }
 
-
 .slider-general .welcome-msg {
     font-family: 'Poppins', sans-serif;
     color: var(--color-primary);
@@ -156,8 +155,12 @@ header .hero-row.header-wrap{
 }
 
 .main-title {
-    -webkit-text-stroke: 1px var(--color-primary);
-    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    position: absolute;
 }
 
 .main-title, .hover-title{
@@ -165,8 +168,14 @@ header .hero-row.header-wrap{
 }
 
 .hover-title{
-    color: var(--color-primary);
-    position: absolute;
+    width: 80%;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--color-primary);
+    -webkit-text-fill-color: transparent;
     transform: translate3d(0, 100%, 0);
 }
 
