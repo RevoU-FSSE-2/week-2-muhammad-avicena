@@ -142,6 +142,15 @@ h3 {
     display: inline;
 }
 
+.welcome-text-contact {
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+}
+
 .line {
     position: absolute;
     height: 2px;
@@ -166,8 +175,12 @@ h3 {
     left: 0;
 }
 
-.line-right {
+.line.right {
     right: 0;
+}
+
+.line.top {
+    top: 0;
 }
 
 .slider-general p {
@@ -240,6 +253,89 @@ h3 {
     width: 40%;
 }
 
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+    font-size: 0.75em;
+    color: #999;
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-input {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+.styled-input label {
+    color: var(--color-primary);
+    font-family: 'Poppins', sans-serif;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.styled-input.wide { 
+    width: 650px;
+    max-width: 100%;
+}
+
+input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 4px;
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px 30px;
+    transition: ease all 0.35s;
+    color: var(--color-primary);
+    font-family: 'Poppins', sans-serif;
+    background-color:  #12c2e9;
+    position: relative;
+    z-index: 11;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #c471ed;
+    transition: ease all 0.5s;
+}
 
 
 @keyframes slideUpDown {
@@ -405,6 +501,27 @@ h3 {
 }
 
 
+.contact-slider-content {
+    align-items: center !important;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-slider-general {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.contact-slider-general .welcome-msg {
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-primary);
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 700px) {
     h1, h2{
         font-size: 3rem;
@@ -483,6 +600,16 @@ h3 {
         font-size: 15px;
         text-align: left;
         order: 2;
+    }
+
+    .submit-btn {
+        width:100%;
+        float: none;
+        text-align:center;
+    }
+
+    .styled-input {
+        width:100%;
     }
     
     .slider-general {
