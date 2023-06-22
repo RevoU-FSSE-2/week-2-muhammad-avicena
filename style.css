@@ -51,28 +51,27 @@ h3 {
     flex-wrap: wrap;
 }
 
-header {
-    position: absolute;
+.navbar {
+    position: fixed;
     padding: 0 15px;
     left: 0;
     right: 0;
     right: 0;
     z-index: 12;
     transition: .8s;
-    background-color: var(--bg-primary);
+    background-color: var(--bg-secondary);
 }
 
-header .hero-row.header-wrap{
+.navbar.transparent {
+    background-color: rgba(29, 29, 29, 0.5);
+    transition: ease all 0.4s;
+}
+
+.navbar .hero-row.header-wrap{
     justify-content: space-between;
     align-items: center;
 }
 
-.brand-name a{
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: var(--color-primary);
-    font-family: 'Poppins', sans-serif;
-}
 
 .hamburger i{
     font-size: 25px;
@@ -97,24 +96,25 @@ header .hero-row.header-wrap{
 }
 
 .hero-navbar ul li a{
-    font-size: 1rem;
+    font-size: 15px;
     line-height: 72px;
-    color: var(--color-secondary);
-    font-weight: 600;
+    color: var(--color-primary);
+    font-weight: 500;
     font-family: 'Poppins', sans-serif;
     position: relative;
-    transform: .8s;
+    transition: ease all 0.5s;
 }
 
 .hero-navbar ul li a:hover {
-    color: var(--color-primary);
-    transition: 0.3s;
+    color: #c471ed;
+    font-size: 18px;
+    transition: ease all 0.3s;
 }
 
 .slider {
     position: relative;
     padding: 150px 0 50px 0;
-    background-color: var(--bg-primary);
+    background-color: var(--bg-secondary);
 }
 
 .slider-content {
@@ -195,17 +195,23 @@ header .hero-row.header-wrap{
     transition: ease all 0.35s;
     color: var(--color-primary);
     font-family: 'Poppins', sans-serif;
-    background-color: #ff5252;
+    background-color:  #12c2e9;
     position: relative;
     z-index: 11;
-    text-transform: uppercase;
     line-height: 30px;
+}
+
+.about-me a:hover {
+    background-color: #c471ed;
+    transition: ease all 0.5s;
 }
 
 .background-image {
     flex: 0 0 auto;
     width: 40%;
 }
+
+
 
 @keyframes slideUpDown {
     0% {
@@ -292,7 +298,7 @@ header .hero-row.header-wrap{
     color: var(--color-primary)
 }
 
-#about {
+#about-section {
     background-color: var(--bg-secondary);
     padding: 100px 0;
     text-align: center;
@@ -302,7 +308,7 @@ header .hero-row.header-wrap{
     justify-content: center;
     margin-bottom: 30px;
     text-align: center;
-     background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -338,7 +344,7 @@ header .hero-row.header-wrap{
 }
 
 .strong-text {
-    text-decoration: underline white;
+    text-decoration: underline 3px #c471ed;
 }
 
 .slider-image-about .hero-img {
@@ -380,7 +386,7 @@ header .hero-row.header-wrap{
         order: 1;
     }
 
-    header {
+    .navbar {
         padding: 15px;
         position: fixed;
         background-color: var(--bg-secondary);
