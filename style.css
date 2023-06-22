@@ -99,12 +99,16 @@ header .hero-row.header-wrap{
 .hero-navbar ul li a{
     font-size: 1rem;
     line-height: 72px;
-    color: var(--color-primary);
+    color: var(--color-secondary);
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     position: relative;
-    text-transform: uppercase;
     transform: .8s;
+}
+
+.hero-navbar ul li a:hover {
+    color: var(--color-primary);
+    transition: 0.3s;
 }
 
 .slider {
@@ -229,7 +233,7 @@ header .hero-row.header-wrap{
 
 .slider-image {
     flex: 0 0 auto;
-    width: 40%;
+    width: 30%;
 }
 
 .slider-image .hero-img {
@@ -372,7 +376,7 @@ header .hero-row.header-wrap{
     }
 
     .animated-image {
-        width: 250%;
+        width: 200%;
         order: 1;
     }
 
@@ -450,5 +454,9 @@ header .hero-row.header-wrap{
     .slider-general-about {
         margin-top: 3rem;
         width: 100%;
+    }
+
+    .contact-info h3 {
+        font-size: 13px;
     }
 }
