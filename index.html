@@ -7,11 +7,13 @@
     <title>Home | Personal Website</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <link rel="stylesheet" href="style.css">
+    <!-- I don't use any css framework, it just external icons -->
     <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </head>
 
 <body>
-    <header class="navbar">
+    <nav class="navbar">
         <div class="hero-container">
             <div class="hero-row header-wrap">
                 <div class="brand-name">
@@ -32,7 +34,7 @@
 
                         </li>
                         <li>
-                            <a href="#">Project</a>
+                            <a href="#skills-section">skills</a>
                         </li>
                         <li>
                             <a href="#contact-section">Contact</a>
@@ -41,8 +43,8 @@
                 </div>
             </div>
         </div>
-    </header>
-    <section class="hero-section">
+    </nav>
+    <header class="hero-section">
         <div class="slider">
             <div class="hero-container">
                 <div class="slider-content">
@@ -80,7 +82,7 @@
             </div>
             <div class="line bottom left"></div>
         </div>
-    </section>
+    </header>
     <section id="about-section">
         <div class="about-container">
             <div class="hero-container">
@@ -115,6 +117,59 @@
         </div>
 
     </section>
+    <section id="skills-section">
+        <div class="skills-slider">
+            <div class="hero-container">
+                <div class="contact-slider-content">
+                    <div class="contact-slider-general">
+                        <div class="welcome-text">
+                            <h3 class="welcome-text-contact">
+                                Skills
+                            </h3>
+                            <span class="welcome-msg">
+                                Possess a diverse range of skills that enable me to excel in various areas.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slides">
+                    <div class="js">
+                        <i class="fab fa-js fa-3x skills-icon"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="react">
+                        <i class="fab fa-react fa-3x skills-icon"></i>
+                        <h3>React</h3>
+                    </div>
+                    <div class="angular">
+                        <i class="fab fa-angular fa-3x skills-icon"></i>
+                        <h3>Angular</h3>
+                    </div>
+                    <div class="js">
+                        <i class="fab fa-node fa-3x skills-icon"></i>
+                        <h3>Node</h3>
+                    </div>
+                    <div class="html5">
+                        <i class="fab fa-html5 fa-3x skills-icon"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="css3">
+                        <i class="fab fa-css3 fa-3x skills-icon"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="sass">
+                        <i class="fa-brands fa-3x fa-sass skills-icon"></i>
+                        <h3>Sass</h3>
+                    </div>
+                    <div class="ellipsis">
+                        <i class="fa-solid fa-ellipsis fa-3x skills-icon"></i>
+                        <h3>Others..</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="contact-section">
         <div class="slider">
             <div class="hero-container">
@@ -156,6 +211,7 @@
                                     <button class="submit-btn" type="submit" value="Submit">Send</button>
                                 </div>
                             </form>
+
                         </div>
                     </div>
                 </div>
@@ -163,15 +219,7 @@
             <div class="line top right"></div>
         </div>
     </section>
-    <footer id="contact">
-        <div class="contact-info">
-            <h3>
-                cenarahmant.dev@gmail.com
-            </h3>
-            <a href="#contact">
-                +62812 2705 7176
-            </a>
-        </div>
+    <footer id="footer">
         <div class="social-link">
             <ul>
                 <li>
@@ -190,7 +238,7 @@
         </div>
         <div class="contact-info">
             <h3>
-                Copyright &copy; 2023 Muhammad Avicena. All Rights Reserved.
+                &copy; 2023 Muhammad Avicena. All Rights Reserved.
             </h3>
         </div>
     </footer>
