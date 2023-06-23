@@ -6,7 +6,7 @@
 hi, I'm Muhammad Avicena. In today's digital age, having an online presence is essential, and a personal website serves as a platform to showcase your skills, experiences, and portfolio to the world. I have built this responsive modern personal website to highlight my work. I hope you like it !
 
 I am committed to staying up-to-date with industry trends and using the latest tools to develop innovative solutions that surpass expectations.
-Interested to have collaboration ? Find me on :
+Interested to have collaboration ? Find me on:
 
 [![Linkedin Badge](https://img.shields.io/badge/-Muhammad_Avicena-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-avicena/)
 [![Youtube Badge](https://img.shields.io/badge/-Muhammad_Avicena-darkred?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@MuhammadAvicena)
