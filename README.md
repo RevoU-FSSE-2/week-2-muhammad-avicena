@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/6H2sAzcR)
 ![Header](https://github.com/RevoU-FSSE-2/week-2-muhammad-avicena/assets/49929404/a91358d9-539e-4477-99de-f61e630e9c3d)
 
 
