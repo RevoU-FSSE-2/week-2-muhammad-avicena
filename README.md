@@ -13,7 +13,7 @@ Interested to have collaboration ? Find me on:
 [![Instagram Badge](https://img.shields.io/badge/-ryuhideaki.dev-purple?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/ryuhideaki.dev/)
 [![Gmail Badge](https://img.shields.io/badge/-cenarahmant.dev@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white)](mailto:cenarahmant.dev@gmail.com)
 
-## STRUCTURE
+## STRUCTURE 📰
 
 - Header
   - Navbar
@@ -28,7 +28,7 @@ Interested to have collaboration ? Find me on:
     - Form 
 - Footer
 
-## INGREDIENTS I USE
+## INGREDIENTS I USE 📜
 - HTML
 - CSS
 - JavaScript
@@ -39,7 +39,23 @@ Interested to have collaboration ? Find me on:
 NB*: 
 - I don't use any CSS Framework or other library to get any component, only font & icon that have been used.
 
-## Deployment
+## ASSIGNMENTS DETAILS 📣
+For the basic requirements of the assignments, I have fulfilled most of it and took the challenge of advanced development. Below is detailed information :
+
+### Basic requirements 
+- Built a responsive web-static page with semantic elements
+    - Navbar, Header, some articles element, some sections, and footer. 
+- Designed a responsive for mobile devices with @media screen (max-widht: 700px)
+- Added a form in contact section with several elements such as type text, text area, submit button.
+- Displayed and centered with flex elements in About section.
+- Added a sticky navbar with fixed elements.
+
+### Advanced requirements
+- Added a hamburger menu and its function while the button clicked it will appear additional menu.
+- Added several Cool and Modern Animations with transition & transition3d text elements.
+- Added a grid layout and made it responsive in skills section.
+
+## DEPLOYMENT ⚙️
 [![Netlify Status](https://api.netlify.com/api/v1/badges/25b51f31-5c41-44f4-84b3-4b1870f47e44/deploy-status)](https://app.netlify.com/sites/avicena-week2/deploys)
 
 The project has been successfully deployed using Netlify. You can access the production version of the website by following this link: [https://week2.avicena.dev](https://week2.avicena.dev).
